@@ -538,17 +538,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
     color-stop(.75, rgba(255, 255, 255, .2)), 
     color-stop(.75, transparent), to(transparent)
     );
-  background-image: 
-  -moz-linear-gradient(
-    -45deg, 
-    rgba(255, 255, 255, .2) 25%, 
-    transparent 25%, 
-    transparent 50%, 
-    rgba(255, 255, 255, .2) 50%, 
-    rgba(255, 255, 255, .2) 75%, 
-    transparent 75%, 
-    transparent
-    );
+
   z-index: 1;
   -webkit-background-size: 50px 50px;
   -moz-background-size: 50px 50px;
